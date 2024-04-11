@@ -1,5 +1,4 @@
 import React from 'react'
-import './LeftContent.css'
 import Image from '../Image/Image'
 
 const LeftContent = () => {

@@ -9,7 +9,6 @@ const Content = () => {
         <div className="left-content">
             <LeftContent />
         </div>
-       
     </div>
     </div>
   )
