@@ -12,14 +12,10 @@
     height: 98%;
     width: 50%;
     background-color: rgb(92, 94, 96);
+    margin: 10px;
 }
 .left-content {
     width: 28%;
     height: 80%;
-    background: red;
-}
-.right-content {
-    width: 72%;
-    height: 80%;
-    background: green;
+    background: white;
 }
