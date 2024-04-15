@@ -13,7 +13,7 @@ const Info = () => {
         </div>
         <div className="info-phone icon-gap">
             <FontAwesomeIcon icon={faMobile} className="custom-icon"/>
-            <p>123 6543 132</p>
+            <p>039815904</p>
         </div>
         <div className="info-address icon-gap">
             <FontAwesomeIcon icon={faMapMarker} className="custom-icon"/>

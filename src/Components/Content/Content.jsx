@@ -7,7 +7,7 @@ const Content = () => {
     <div className="app">
         <div className='content'>
         <div className="left-content">
-            <LeftContent />
+          <LeftContent />
         </div>
     </div>
     </div>
