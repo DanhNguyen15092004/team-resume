@@ -6,8 +6,8 @@ import Skills from '../Skills/Skills'
 
 const LeftContent = () => {
   return (
-    <div className='left-content'>
-      <Image/>
+    <div className='l-content'>
+      <Image />
       <Info/>
       <Skills/>
     </div>
