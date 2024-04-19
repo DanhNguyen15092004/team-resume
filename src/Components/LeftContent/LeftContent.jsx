@@ -5,7 +5,7 @@ import Info from '../Info/Info'
 
 const LeftContent = () => {
   return (
-    <div className='left-content'>
+    <div className='l-content'>
       <Image />
       <Info />
     </div>

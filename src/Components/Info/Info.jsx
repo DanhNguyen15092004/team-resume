@@ -9,27 +9,27 @@ const Info = () => {
     <div className='info'>
         <div className="info-mail icon-gap">
             <FontAwesomeIcon icon={faEnvelope} className="custom-icon"/>
-            <p>johnathan@novoresume.com</p>
+            <p className='text'>johnathan@novoresume.com</p>
         </div>
         <div className="info-phone icon-gap">
             <FontAwesomeIcon icon={faMobile} className="custom-icon"/>
-            <p>123 6543 132</p>
+            <p className='text'>123 6543 132</p>
         </div>
         <div className="info-address icon-gap">
             <FontAwesomeIcon icon={faMapMarker} className="custom-icon"/>
-            <p>Long Beach, CA</p>
+            <p className='text'>Long Beach, CA</p>
         </div>
         <div className="info-com icon-gap">
             <FontAwesomeIcon icon={faGlobe} className="custom-icon"/>
-            <p>jonathan-smith.com</p>
+            <p className='text'>jonathan-smith.com</p>
         </div>
         <div className="info-linkedin icon-gap">
             <FontAwesomeIcon icon={faLinkedin} className="custom-icon"/>
-            <p>linkedin.com/in/jonathan.smith</p>
+            <p className='text'> linkedin.com/in/jonathan.smith</p>
         </div>
         <div className="info-git icon-gap">
             <FontAwesomeIcon icon={faGithub} className="custom-icon"/>
-            <p>github.com/jonathan.smith</p>
+            <p className='text'>github.com/jonathan.smith</p>
         </div>
     </div>
   )

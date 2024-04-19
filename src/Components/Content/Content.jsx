@@ -5,8 +5,8 @@ import LeftContent from '../LeftContent/LeftContent'
 const Content = () => {
   return (
     <div className="app">
-        <div className='content'>
-          <div className="left-content">
+        <div className='content' >
+          <div className="left-content background">
             <LeftContent />
           </div>
         </div>
