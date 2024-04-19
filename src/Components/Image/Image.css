@@ -2,13 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .image {
-      object-fit: cover;   
-  }
-
-  .image img {
+}
+.image img {
     width: 12vw;
     height: 100%;
     margin: 10%;
