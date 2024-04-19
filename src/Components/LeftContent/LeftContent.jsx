@@ -2,12 +2,14 @@ import React from 'react'
 import './LeftContent.css'
 import Image from '../Image/Image'
 import Info from  '../Info/Info'
+import Skills from '../Skills/Skills'
 
 const LeftContent = () => {
   return (
     <div className='left-content'>
-      <Image />
+      <Image/>
       <Info/>
+      <Skills/>
     </div>
   )
 }

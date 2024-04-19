@@ -8,11 +8,12 @@
 }
 .info p {
     margin-top: -1.5%;
+    color: black;
 }
 .info .icon-gap {
     margin-left: 0.8%;
     color: rgb(222, 64, 64);
 }
-.custom-icon, .infoContent {
-    color: black;
+.custom-icon {
+    color: rgb(222, 64, 64);
 }
