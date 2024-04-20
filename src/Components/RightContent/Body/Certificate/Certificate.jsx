@@ -5,8 +5,7 @@ import { faAws , faLinux , faUncharted } from "@fortawesome/free-brands-svg-icon
 const Certificate = () => { 
     return ( 
         <div className="certificate"> 
-                <h1>CERTIFICATE</h1>
-                <hr/>
+                <h3 className="certificate-title">CERTIFICATE</h3>
             <div className="certificate"> 
                 <h4 className="text">
                     <FontAwesomeIcon icon={faAws} className ='custom-icon' />
