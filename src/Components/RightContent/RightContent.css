@@ -1,0 +1,15 @@
+.rightcontent {
+    /* ... */
+    display: flex; /* Bật chế độ Flexbox cho rightContent */
+    flex-wrap: wrap; /* Cho phép các phần tử xuống dòng khi cần thiết */
+    align-items: flex-start; /* Căn chỉnh các phần tử theo cạnh trên */
+    justify-content: flex-start; /* Căn chỉnh các phần tử sang trái */
+    max-width: 90%; /* Đặt giới hạn chiều rộng cho rightContent */
+    margin: 0 auto; /* Căn giữa rightContent */
+  }
+  
+  .header {
+    flex: 0 0 100%; /* Chiếm toàn bộ chiều rộng của dòng hiện tại */
+    margin-bottom: 10px; /* Khoảng cách giữa header và phần tử tiếp theo */
+  }
+  

@@ -7,7 +7,7 @@ import './Info.css'
 const Info = () => {
   return (
     <div className='info'>
-        <div className="info-mail icon-gap">
+        <div className="info-mail icon-gap ">
             <FontAwesomeIcon icon={faEnvelope} className="custom-icon"/>
             <p className='text'>johnathan@novoresume.com</p>
         </div>

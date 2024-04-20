@@ -9,16 +9,20 @@
 .content {
     display: flex;
     height: 98%;
-    width: 50%;
-    margin: 10px;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 .left-content {
     width: 28%;
     height: 80%;
     background: white;
 }
-.right-content {
-    width: 72%;
-    height: 80%;
-    background: green;
+.rightcontent {
+    width: 40%;
+    height: 90%;
+    position: absolute;
+    right :20%;
+    top: 6%;
+ 
 }

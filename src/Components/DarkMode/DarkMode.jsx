@@ -4,7 +4,7 @@ import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import './DarkMode.css';
 
 const DarkMode = () => {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
