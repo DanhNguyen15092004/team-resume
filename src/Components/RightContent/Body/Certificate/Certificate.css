@@ -5,3 +5,6 @@
 .text > .custom-icon { 
     padding-right: 10px;
 }
+.certificate-title {
+    color: rgb(222, 64, 64);
+}
