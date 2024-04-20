@@ -1,7 +1,6 @@
 import React from "react";
 import './Body.css'; 
 import Certificate from "./Certificate/Certificate";
-import Technology from "./Technology/Technology";
 const Body = () => {
     return ( 
         <div className="body">
@@ -11,7 +10,6 @@ const Body = () => {
                 </h1>
                 <hr/>
                 <Certificate/>
-                <Technology/>
             </div>
         </div>
     )

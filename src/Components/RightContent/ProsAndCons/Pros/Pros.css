@@ -1,0 +1,6 @@
+.pros-text{
+    font-size: 20px;
+}
+.pros-text > .custom-icon { 
+    padding-right: 10px;
+}
