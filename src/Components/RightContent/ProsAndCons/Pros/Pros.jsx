@@ -1,7 +1,7 @@
 import React from "react";
 import '../Pros/Pros.css' // Assuming your CSS file is in a Pros folder
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCommentDots, faBookOpen, faHandshake, faArrowUp } from "@fortawesome/free-solid-svg-icons"; // Importing multiple icons
+import { faCommentDots, faBookOpen, faHandshake } from "@fortawesome/free-solid-svg-icons"; // Importing multiple icons
 
 const Pros = () => {
   return (
