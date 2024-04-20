@@ -4,18 +4,21 @@
     align-items: center;
     width: 100vw;
     height: 300vh;
-    background-color: aliceblue;
     margin: 10px;
 }
 .content {
     display: flex;
     height: 98%;
     width: 50%;
-    background-color: rgb(92, 94, 96);
     margin: 10px;
 }
 .left-content {
     width: 28%;
     height: 80%;
     background: white;
+}
+.right-content {
+    width: 72%;
+    height: 80%;
+    background: green;
 }
