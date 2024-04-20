@@ -19,7 +19,6 @@ const DarkMode = () => {
   }, []);
 
   useEffect(() => {
-    if (backgroundElements && iconElements) {
       if (isDarkMode) {
         backgroundElements.forEach(e => e.classList.add("darkMode"));
         iconElements.forEach(element => element.classList.add("text-DarkMode"));
@@ -27,8 +26,8 @@ const DarkMode = () => {
         backgroundElements.forEach(e => e.classList.remove("darkMode"));
         iconElements.forEach(element => element.classList.remove("text-DarkMode"));
       }
-    }
-  }, [isDarkMode, backgroundElements, iconElements]);
+    
+  }, [isDarkMode]);
 
   return (
     <div className={`wrapperDarkMode ${isDarkMode ? 'darkMode' : ''}`} onClick={toggleDarkMode}>
