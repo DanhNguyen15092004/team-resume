@@ -6,7 +6,7 @@ import RightContent from '../RightContent/RightContent'
 const Content = () => {
   return (
     <div className="app">
-        <div className='content' >
+        <div className='content background' >
           <div className="left-content background">
             <LeftContent />
             <RightContent/>

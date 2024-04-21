@@ -5,47 +5,47 @@ const Skills = () => {
 
   return (
     <div className="skills">
-      <h1>technical skills</h1>
+      <h1 className='text'>technical skills</h1>
       <hr className='hr-skills' />
       <div className="rank">
         <hr /><hr /><hr /><hr />
       </div>
       <div className="skill-bar-container">
         <div className="skill-bar">
-          <h2>HTML5</h2>
+          <h2 className='text' >HTML5</h2>
           <div className="input-color">
             <input type="text" className='full' />
           </div>
-          <h2>CSS3</h2>
+          <h2 className='text'>CSS3</h2>
           <div className="input-color">
             <input type="text" className='full' />
           </div>
-          <h2>JavaScript</h2>
+          <h2 className='text'>JavaScript</h2>
           <div className="input-color">
             <input type="text" className='full' />
           </div>
-          <h2>jQuery</h2>
+          <h2 className='text'>.Net</h2>
           <div className="input-color">
             <input type="text" className='full' />
           </div>
-          <h2>PHP</h2>
+          <h2 className='text'>PHP</h2>
           <div className="input-color">
             <input type="text" className='full' />
           </div>
-          <h2>SQL</h2>
+          <h2 className='text'>SQL</h2>
           <div className="input-color">
             <input type="text" className='full' />
           </div>
           <div className='skill-bar-percent'>
-            <h2>Adobe Creative Suite</h2>
+            <h2 className='text'>SSMS</h2>
             <div className="input-color">
               <input type="text" className='percent' />
             </div>
-            <h2>WordPress</h2>
+            <h2 className='text'>React</h2>
             <div className="input-color">
               <input type="text" className='percent' />
             </div>
-            <h2>XML</h2>
+            <h2 className='text'>XML</h2>
             <div className="input-color">
               <input type="text" className='percent' />
             </div>

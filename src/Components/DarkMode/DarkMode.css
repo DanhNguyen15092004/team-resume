@@ -14,9 +14,9 @@
     position: absolute;
     left: -2%;
     top : -2%;
-    transition:  0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
-.sun {  
+.sun{  
     color : orange;
     position: absolute;
     top: 25%;
@@ -38,9 +38,8 @@
 .darkModeIcon {
     font-size: 25px;
 }
-/* @keyframes bounce {
-
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-    100% { transform: translateY(0); }
-} */
+@keyframes move-left {
+    from { transform: translateX(0px); } /* Element starts at its original position */
+    to { transform: translateX(-100px); } /* Element moves 100px to the left */
+  }
+  
