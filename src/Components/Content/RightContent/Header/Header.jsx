@@ -4,16 +4,20 @@ const Header = () => {
     return (
         <div className="cv-header-container">
             <h1 className='cv-header-name text'>
-                Nguyen Hoang Cong Danh
+                Danh Nguyen Hoang Cong 
             </h1>
             <h2 className="cv-header-title text">
                 Intern Web Development
             </h2>
-            <hr style={{ width: '70%',  }} />
+            <hr />
             <p className="cv-header-description text">
-                I just graduated from university . And i have some experience to working effeciently with teammate in
-                all team that i joined . Im love working in the professional enviroment like your company . And i can 
-                adapt the technology of the company desire with my learning experience. 
+
+            As a recent graduate from university, I bring a blend of fresh knowledge and practical experience to the table.
+            Throughout my academic journey, I've honed my ability to collaborate seamlessly with teammates across various projects and disciplines.
+            I thrive in professional environments, 
+            and I am eager to contribute to the dynamic atmosphere of your esteemed company.
+            My adaptability shines through in my eagerness to embrace the technologies and methodologies that align with the goals of your organization.
+            Drawing from my learning experiences, I am well-equipped to integrate seamlessly into your company's technological landscape and contribute effectively to its success.
             </p>
         </div>
       )
