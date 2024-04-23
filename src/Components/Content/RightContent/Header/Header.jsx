@@ -1,8 +1,9 @@
 import React from "react";
 import './Header.css'
+import { Col } from "react-bootstrap";
 const Header = () => { 
     return (
-        <div className="cv-header-container">
+        <Col className="cv-header-container">
             <h1 className='cv-header-name text'>
                 Nguyen Hoang Cong Danh
             </h1>
@@ -15,7 +16,7 @@ const Header = () => {
                 all team that i joined . Im love working in the professional enviroment like your company . And i can 
                 adapt the technology of the company desire with my learning experience. 
             </p>
-        </div>
+        </Col>
       )
 }
 

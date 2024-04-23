@@ -1,9 +1,10 @@
 import React from "react";
 import Pros from "./Pros/Pros";
 import Cons from "./Cons/Cons"
+import { Col } from "react-bootstrap";
 const ProsAndCons = () => { 
     return (
-        <div className="ProsAndConsContainer">
+        <Col className="ProsAndConsContainer">
            <h1 className="experience-title">
                     PROS AND CONS 
                 </h1>
@@ -16,7 +17,7 @@ const ProsAndCons = () => {
                     DISADVANTAGES
                 </h3>
                 <Cons/>
-        </div>
+        </Col>
     )
 }
 export default ProsAndCons

@@ -1,13 +1,14 @@
-import React from 'react'
-import './Image.css'
-import image from '../../../Assets/img.jpg'
+import React from 'react';
+import './Image.css';
+import image from '../../../Assets/img.jpg';
+import {Col, Row} from 'react-bootstrap';
 
 const Image = () => {
   return (
-    <div className='image'>
-      <img src={image} alt="" />
-    </div>
-  )
-}
+    <Col className='image-myself' sm={12} >
+      <img src={image} alt="" className="img-fluid" />
+    </Col>
+  );
+};
 
-export default Image    
+export default Image;

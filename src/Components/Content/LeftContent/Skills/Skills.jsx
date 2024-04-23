@@ -1,15 +1,12 @@
 import React from 'react';
 import './Skills.css';
+import { Col } from 'react-bootstrap';
 
 const Skills = () => {
-
   return (
-    <div className="skills">
+    <Col className="skills" sm={12}>
       <h1 className='text'>technical skills</h1>
       <hr className='hr-skills' />
-      <div className="rank">
-        <hr /><hr /><hr /><hr />
-      </div>
       <div className="skill-bar-container">
         <div className="skill-bar">
           <h2 className='text' >HTML5</h2>
@@ -52,7 +49,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Col>
   );
 };
 

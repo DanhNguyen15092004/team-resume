@@ -1,18 +1,10 @@
 .info {
-    width: 12vw;
-    font-size: 0.8vw;
-    margin-top: 20%;
-    user-select: none;
-
-}
-.icon-gap {
-    margin-bottom: 5%;   
-}
-.info p {
-    margin-top: -1.5%;
-}
-.info .icon-gap {
-    margin-left: 0.8%;
-    color: rgb(222, 64, 64);
+    font-size: 19px;
+    margin-top: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    .info {
+      font-size: 10px; /* Đặt kích thước font nhỏ hơn cho màn hình nhỏ hơn */
+    }
+}
