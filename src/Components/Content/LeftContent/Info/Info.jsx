@@ -1,39 +1,89 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMobile, faEnvelope, faMapMarker, faGlobe} from '@fortawesome/free-solid-svg-icons'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMobile, faEnvelope, faMapMarker, faGlobe} from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import './Info.css'
-import '../DarkMode/DarkMode.css'
+import { Row, Col } from 'react-bootstrap';
+// import './Info.css'; // Import file CSS để sử dụng lớp tùy chỉnh
 
 const Info = () => {
   return (
-    <div className='info'>
-        <div className="info-mail icon-gap custom-icon">
+    <div className='info' style={{marginTop: '20px'}}>
+      <Col sm={12}>
+        <Row sm={12}>
+          <Col xs={2} className="icon-gap custom-icon">
             <FontAwesomeIcon icon={faEnvelope} className="custom-icon"/>
-            <p className="text">johnathan@novoresume.com</p>
-        </div>
-        <div className="info-phone icon-gap custom-icon">
+          </Col>
+          <Col xs={10}>
+            <p className="text small">
+              <span className="icon-text-gap"> {/* Thêm một phần tử span để tạo khoảng cách */}
+                johnathan@novoresume.com
+              </span>
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={2} className="icon-gap custom-icon">
             <FontAwesomeIcon icon={faMobile} className="custom-icon"/>
-            <p className="text">123 6543 132</p>
-        </div>
-        <div className="info-address icon-gap custom-icon">
+          </Col>
+          <Col xs={10}>
+            <p className="text small">
+              <span className="icon-text-gap"> {/* Thêm một phần tử span để tạo khoảng cách */}
+                123 6543 132
+              </span>
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={2} className="icon-gap custom-icon">
             <FontAwesomeIcon icon={faMapMarker} className="custom-icon"/>
-            <p className="text">Long Beach, CA</p>
-        </div>
-        <div className="info-com icon-gap custom-icon">
+          </Col>
+          <Col xs={10}>
+            <p className="text small">
+              <span className="icon-text-gap"> {/* Thêm một phần tử span để tạo khoảng cách */}
+                Long Beach, CA
+              </span>
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={2} className="icon-gap custom-icon">
             <FontAwesomeIcon icon={faGlobe} className="custom-icon"/>
-            <p className="text">jonathan-smith.com</p>
-        </div>
-        <div className="info-linkedin icon-gap custom-icon">
+          </Col>
+          <Col xs={10}>
+            <p className="text small">
+              <span className="icon-text-gap"> {/* Thêm một phần tử span để tạo khoảng cách */}
+                jonathan-smith.com
+              </span>
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={2} className="icon-gap custom-icon">
             <FontAwesomeIcon icon={faLinkedin} className="custom-icon"/>
-            <p className="text"> linkedin.com/in/jonathan.smith</p>
-        </div>
-        <div className="info-git icon-gap custom-icon">
+          </Col>
+          <Col xs={10}>
+            <p className="text small">
+              <span className="icon-text-gap"> {/* Thêm một phần tử span để tạo khoảng cách */}
+                linkedin.com/in/jonathan.smith
+              </span>
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={2} className="icon-gap custom-icon">
             <FontAwesomeIcon icon={faGithub} className="custom-icon"/>
-            <p className="text">github.com/jonathan.smith</p>
-        </div>
+          </Col>
+          <Col xs={10}>
+            <p className="text small">
+              <span className="icon-text-gap"> {/* Thêm một phần tử span để tạo khoảng cách */}
+                github.com/jonathan.smith
+              </span>
+            </p>
+          </Col>
+        </Row>
+      </Col>
     </div>
   )
 }
 
-export default Info
+export default Info;

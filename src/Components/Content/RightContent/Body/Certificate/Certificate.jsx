@@ -2,9 +2,10 @@ import React from "react";
 import './Certificate.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faAws , faLinux , faUncharted } from "@fortawesome/free-brands-svg-icons";
+import { Col } from "react-bootstrap";
 const Certificate = () => { 
     return ( 
-        <div className="certificate"> 
+        <Col className="certificate"> 
                 <h3 className="certificate-title">CERTIFICATE</h3>
             <div className="certificate"> 
                 <h4 className="text">
@@ -20,7 +21,7 @@ const Certificate = () => {
                      Software Engineering Master Certification 
                 </h4>
             </div>
-        </div>
+        </Col>
     )
 }
 export default Certificate

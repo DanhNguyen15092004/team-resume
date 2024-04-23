@@ -16,18 +16,7 @@
     background: rgb(222, 64, 64);
     margin-top: -7px;
 }
-.rank {
-    display: flex;
-    justify-content: space-between;
-    gap: 90px;
-    width: 12vw;
-}
-.rank hr {
-    height: 1vh;
-    width: 0.01vw;
-    background: rgb(222, 64, 64);
-    border: none; 
-}
+
 
 .skill-bar {
     height: 100%;

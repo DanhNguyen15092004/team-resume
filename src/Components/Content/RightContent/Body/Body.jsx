@@ -1,9 +1,10 @@
 import React from "react";
 import './Body.css'; 
 import Certificate from "./Certificate/Certificate";
+import { Col } from "react-bootstrap";
 const Body = () => {
     return ( 
-        <div className="body">
+        <Col className="body">
             <div className="Experience">
                 <h1 className="experience-title">
                     WORK EXPERIENCE
@@ -11,7 +12,7 @@ const Body = () => {
                 <hr/>
                 <Certificate/>
             </div>
-        </div>
+        </Col>
     )
 }
 export default Body
