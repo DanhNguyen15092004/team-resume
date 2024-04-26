@@ -1,7 +1,7 @@
 import React from 'react';
 import './Image.css';
 import image from '../../../Assets/img.jpg';
-import {Col, Row} from 'react-bootstrap';
+import {Col } from 'react-bootstrap';
 
 const Image = () => {
   return (

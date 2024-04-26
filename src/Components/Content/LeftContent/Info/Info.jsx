@@ -15,7 +15,7 @@ const Info = () => {
           </Col>
           <Col xs={10}>
             <p className="text small">
-              <span className="icon-text-gap"> {/* Thêm một phần tử span để tạo khoảng cách */}
+              <span className="icon-text-gap">
                 johnathan@novoresume.com
               </span>
             </p>
@@ -27,7 +27,7 @@ const Info = () => {
           </Col>
           <Col xs={10}>
             <p className="text small">
-              <span className="icon-text-gap"> {/* Thêm một phần tử span để tạo khoảng cách */}
+              <span className="icon-text-gap"> 
                 123 6543 132
               </span>
             </p>
@@ -39,7 +39,7 @@ const Info = () => {
           </Col>
           <Col xs={10}>
             <p className="text small">
-              <span className="icon-text-gap"> {/* Thêm một phần tử span để tạo khoảng cách */}
+              <span className="icon-text-gap">
                 Long Beach, CA
               </span>
             </p>
@@ -51,7 +51,7 @@ const Info = () => {
           </Col>
           <Col xs={10}>
             <p className="text small">
-              <span className="icon-text-gap"> {/* Thêm một phần tử span để tạo khoảng cách */}
+              <span className="icon-text-gap"> 
                 jonathan-smith.com
               </span>
             </p>
