@@ -4,12 +4,7 @@ import Body from "./Body/Body"
 import ProsAndCons from "./ProsAndCons/ProsAndCons";
 import { Col, Row } from "react-bootstrap";
 const RightContent = () =>{ 
-    return( 
-        // <div className="rightcontent">
-        //     <Header/>
-        //     <Body/>
-        //     <ProsAndCons/>
-        // </div>
+    return(
         <Col>
         <Row>
             <Header/>

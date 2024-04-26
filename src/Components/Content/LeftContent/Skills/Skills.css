@@ -16,8 +16,6 @@
     background: rgb(222, 64, 64);
     margin-top: -7px;
 }
-
-
 .skill-bar {
     height: 100%;
     width: 100%;
@@ -68,3 +66,17 @@
 input {
     margin-bottom: 20px;
 }
+
+.skill-bar-percent .percent.animate {
+    animation: fill-up 2s ease-in-out forwards;
+  }
+  
+  @keyframes fill-up {
+    from {
+      width: 0%; /* Start from 0% width */
+    }
+    to {
+      width: 100 /* Target percentage here */; /* Replace with desired percentage */
+    }
+  }
+  
