@@ -25,9 +25,7 @@ const Skills = () => {
   const animateSkills = () => {
     const animationDuration = 1500; // Animation duration in milliseconds
     const animationInterval = 100; // Interval between each animation step
-
     const animationFrames = Math.ceil(animationDuration / animationInterval);
-    
     skillsData.forEach((skill, index) => {
       const step = skill.value / animationFrames;
       let currentValue = 0;
@@ -45,13 +43,11 @@ const Skills = () => {
         });
       }, animationInterval);
     });
-  };
+  };  
 
   return (
     <Col className="skills" sm={12}>
-      <h1 className='text'>Technical Skills</h1>
-      <hr className='hr-skills' />
-
+      <h1 className='skill-title'>TECHNICAL SKILLS</h1>  
       <div className="skill-bar">
         {skillsData.map((skill, index) => (
           <div key={index} className="skill-item">

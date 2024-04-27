@@ -3,25 +3,27 @@ import './Certificate.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faAws , faLinux , faUncharted } from "@fortawesome/free-brands-svg-icons";
 import { Col } from "react-bootstrap";
+
 const Certificate = () => { 
     return ( 
-        <Col className="certificate"> 
-                <h3 className="certificate-title">CERTIFICATE</h3>
-            <div className="certificate"> 
-                <h4 className="text">
-                    <FontAwesomeIcon icon={faAws} className ='custom-icon' />
-                    AWS Solutions Architect Associate
-                </h4> 
-                <h4 className="text">
-                    <FontAwesomeIcon icon= {faLinux} className ='custom-icon'/>
-                    Certified Web Professional - Web Developer
-                </h4>
-                <h4 className="text">
-                    <FontAwesomeIcon icon= {faUncharted} className ='custom-icon'   /> 
-                     Software Engineering Master Certification 
-                </h4>
+        <Col className="certificate-container"> 
+            <h3 className="certificate-title">CERTIFICATE</h3>
+            <div className="certificate-content"> 
+                <div className="certificate-item">
+                    <FontAwesomeIcon icon={faAws} className='custom-icon' />
+                    <h3 className="certificate-text">AWS Solutions Architect Associate</h3>
+                </div>
+                <div className="certificate-item">
+                    <FontAwesomeIcon icon={faLinux} className='custom-icon'/>
+                    <h3 className="certificate-text">Certified Web Professional - Web Developer</h3>
+                </div>
+                <div className="certificate-item">
+                    <FontAwesomeIcon icon={faUncharted} className='custom-icon' />
+                    <h3 className="certificate-text">Software Engineering Master Certification</h3>
+                </div>
             </div>
         </Col>
     )
 }
-export default Certificate
+
+export default Certificate;

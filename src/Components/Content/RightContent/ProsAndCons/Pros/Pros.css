@@ -1,6 +1,23 @@
-.pros-text{
+.pros-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pros-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .custom-icon {
+    margin-right: 10px;
+    margin-bottom: 10px;
     font-size: 20px;
-}
-.pros-text > .custom-icon { 
-    padding-right: 10px;
-}
+  }
+  
+  .pros-text {
+    font-size: 14px;
+  }
+  .pros-content {
+    margin-top: 20px;
+  }

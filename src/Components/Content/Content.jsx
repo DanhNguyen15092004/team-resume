@@ -8,7 +8,7 @@ import ProsAndCons from './RightContent/ProsAndCons/ProsAndCons';
 import Image from './LeftContent/Image/Image';
 import Header from './RightContent/Header/Header';
 import Body from './RightContent/Body/Body';
-
+import './Content.css'
 const Content = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -43,7 +43,7 @@ const Content = () => {
           <Col sm={12}> 
             <Image/>
           </Col>
-          <Col sm={12}>
+          <Col className='header' sm={12}>
             <Header />
           </Col>
           <Col sm={12}> 

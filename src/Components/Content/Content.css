@@ -6,24 +6,7 @@
     height: 150vh;
     margin: 10px;
 }
-.content {
-    display: flex;
-    height: 98%;
-    width: 60%;
-    border: 1px solid black;
-    border-radius: 5px;
-    user-select: none;
-}
-.left-content {
-    width: 28%;
-    height: 80%;
-    background: white;
-}
-.rightcontent {
-    width: 40%;
-    height: 90%;
-    position: absolute;
-    right :20%;
-    top: 6%;
- 
+.header {
+    padding-top: 15px;
+    
 }

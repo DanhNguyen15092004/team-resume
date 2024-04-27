@@ -1,7 +1,24 @@
-.cons-text { 
+.cons-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cons-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .custom-icon {
+    margin-right: 10px;
+    margin-bottom: 10px;
     font-size: 20px;
+  }
+  
+  .cons-text {
+    font-size: 14px;
+    /* Adjust the font size as needed */
 }
-.cons-text > .custom-icon {
-    padding-right: 10px;
-
-}
+.cons-content {
+    margin-top :20px;
+}  
