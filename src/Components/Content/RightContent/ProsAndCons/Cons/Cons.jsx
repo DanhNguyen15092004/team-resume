@@ -8,7 +8,7 @@ const Cons = () => {
     <div className="cons-container">
       <div className="cons-content">
         <div className="cons-item">
-          <FontAwesomeIcon icon={faTimesCircle} className='custom-icon' />  
+          <FontAwesomeIcon icon={faTimesCircle} className='custom-icon'/>  
           <h4 className="cons-text">Limited Experience in Production Environments</h4>
         </div>
         <div className="cons-item">
@@ -20,7 +20,6 @@ const Cons = () => {
           <h4 className="cons-text">Potential for Struggles in Collaborating with Senior Team Members</h4>
         </div>
       </div>
-    
     </div>
   );
 };

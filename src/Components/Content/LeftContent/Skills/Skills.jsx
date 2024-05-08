@@ -51,7 +51,7 @@ const Skills = () => {
       <div className="skill-bar">
         {skillsData.map((skill, index) => (
           <div key={index} className="skill-item">
-            <h2 className="text">{skill.name}</h2>
+            <h2 className="skills-name">{skill.name}</h2>
             <div className="progress-bar">
               <div
                 className="progress"

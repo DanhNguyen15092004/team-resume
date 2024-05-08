@@ -1,10 +1,25 @@
-.info {
-    font-size: 19px;
-    margin-top: 20px;
+.info-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: unset;
+  margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 768px) {
-    .info {
-      font-size: 10px; /* Đặt kích thước font nhỏ hơn cho màn hình nhỏ hơn */
-    }
+.info-item {
+  display: flex;
+  margin-bottom: 10px;
 }
+
+.custom-icon {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.info-text {
+  font-size: 14px;
+  /* Adjust the font size as needed */
+}
+.info-content {
+  margin-bottom :20px;
+}  

@@ -31,10 +31,10 @@ const Content = () => {
     <Container className="d-flex justify-content-center align-items-center">
       {!isMobile ? (
         <Row>
-          <Col sm={3}>
+          <Col sm={6} md ={5} lg={5} xl={3}>
             <LeftContent />
           </Col>
-          <Col sm={9}>
+          <Col sm={6} md={7} lg={7} xl={7}>
             <RightContent />
           </Col>
         </Row>
@@ -56,6 +56,7 @@ const Content = () => {
             <ProsAndCons />
           </Col>
           <Col sm={12}>
+            <h1 className='contact-title'>CONTACT</h1>
             <Info />
           </Col>
         </Row>

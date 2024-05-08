@@ -1,12 +1,11 @@
 .skills {
     width: 100%;
     font-size: 0.8vw;
-    margin-top: 20%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+
 }
 .skill-bar h2 {
-    margin-top: 0;
-    margin-bottom: 10px;
     font-size: 18px;
     padding: 0;
     font-weight: 400;
@@ -20,4 +19,8 @@
 .skill-title {
     font-size: 30px;
    color: rgb(222, 64, 64);
+}
+.skills-name {
+    margin-top: 10px;
+    margin-bottom: unset;
 }
