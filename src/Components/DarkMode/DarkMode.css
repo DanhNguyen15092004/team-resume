@@ -1,21 +1,14 @@
 .wrapperDarkMode {
-    width: 6%; 
+    width: 5%; 
     height: 45px;
     border: 1px solid ;
     border-radius: 20px;
     position: absolute;
     top : 5%;
     right: 3%;
+    cursor: pointer;
 }
-.buttonDarkMode {
-    width: 40%;
-    height:105%;
-    border-radius: 100%;
-    position: absolute;
-    left: -2%;
-    top : -2%;
-    transition: transform 0.5s ease-in-out;
-}
+
 .sun{  
     color : orange;
     position: absolute;
@@ -23,23 +16,18 @@
     left :5%;
 }
 .moon { 
-    color : white;
+    color:black;
     position: absolute;
     top: 25%;
-    right :5%;
+    right:5%;
 }
 .darkMode {
     background-color: black;
+    color:white;    
 }
-
 .text-DarkMode { 
     color :white ;
 }
 .darkModeIcon {
     font-size: 25px;
 }
-@keyframes move-left {
-    from { transform: translateX(0px); } /* Element starts at its original position */
-    to { transform: translateX(-100px); } /* Element moves 100px to the left */
-  }
-  

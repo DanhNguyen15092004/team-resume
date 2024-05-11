@@ -1,7 +1,7 @@
 import React from "react";
 import './Certificate.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
-import { faAws , faLinux , faUncharted } from "@fortawesome/free-brands-svg-icons";
+import { faOpencart , faLinux , faUncharted } from "@fortawesome/free-brands-svg-icons";
 import { Col } from "react-bootstrap";
 
 const Certificate = () => { 
@@ -10,16 +10,16 @@ const Certificate = () => {
             <h3 className="certificate-title">CERTIFICATE</h3>
             <div className="certificate-content"> 
                 <div className="certificate-item">
-                    <FontAwesomeIcon icon={faAws} className='custom-icon' />
-                    <h3 className="certificate-text">AWS Solutions Architect Associate</h3>
+                    <FontAwesomeIcon icon={faOpencart} className='custom-icon' />
+                    <h3 className="certificate-text">IELTS Overall 6.0</h3>
                 </div>
                 <div className="certificate-item">
                     <FontAwesomeIcon icon={faLinux} className='custom-icon'/>
-                    <h3 className="certificate-text">Certified Web Professional - Web Developer</h3>
+                    <h3 className="certificate-text">Certified Web Fundamental - Web Developer</h3>
                 </div>
                 <div className="certificate-item">
                     <FontAwesomeIcon icon={faUncharted} className='custom-icon' />
-                    <h3 className="certificate-text">Software Engineering Master Certification</h3>
+                    <h3 className="certificate-text">Software Engineering Fundamental Certification</h3>
                 </div>
             </div>
         </Col>

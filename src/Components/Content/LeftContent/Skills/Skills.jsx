@@ -10,7 +10,7 @@ const skillsData = [
   { name: 'Python', value: 60 },
   { name: 'SQL', value: 85 },
   { name: 'Node.js', value: 55 },
-  { name: 'Git', value: 95 },
+  { name: 'Git', value: 60 },
   { name: 'Docker', value: 70 },
   // Add more skills as needed
 ];

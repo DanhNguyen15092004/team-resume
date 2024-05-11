@@ -11,28 +11,20 @@ const Info = () => {
         <div className="info-content">
           <div className="info-item">
             <FontAwesomeIcon icon={faEnvelope} className="custom-icon" />
-            <h4 className="info-text">johnathan@novoresume.com</h4>
+            <h4 className="info-text">danh.nguyen1509.2004@gmail.com</h4>
           </div>
           <div className="info-item">
             <FontAwesomeIcon icon={faMobile} className="custom-icon" />
-            <h4 className="info-text">123 6543 132</h4>
-          </div>
-          <div className="info-item">
-            <FontAwesomeIcon icon={faMapMarker} className="custom-icon" />
-            <h4 className="info-text">Long Beach, CA</h4>
-          </div>
-          <div className="info-item">
-            <FontAwesomeIcon icon={faGlobe} className="custom-icon" />
-            <h4 className="info-text">jonathan-smith.com</h4>
+            <h4 className="info-text">+84 0396815904</h4>
           </div>
           <div className="info-item">
             <FontAwesomeIcon icon={faLinkedin} className="custom-icon" />
-            <h4 className="info-text">linkedin.com/in/jonathan.smith</h4>
-          </div>
+            <a href="https://www.linkedin.com/in/danh-nguy%E1%BB%85n-994a8b25b/" target="_blank" rel="noopener noreferrer" className="info-text">Linkedin</a>
+        </div>
           <div className="info-item">
             <FontAwesomeIcon icon={faGithub} className="custom-icon" />
-            <h4 className="info-text">github.com/jonathan.smith</h4>
-          </div>
+            <a href="https://github.com/DanhNguyen15092004" target="_blank" rel="noopener noreferrer" className="info-text">Github</a>
+        </div>
         </div>
       </div>
     </div>

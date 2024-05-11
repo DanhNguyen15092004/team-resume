@@ -31,7 +31,6 @@ const DarkMode = () => {
   return (
     <div className={`wrapperDarkMode ${isDarkMode ? 'darkMode' : ''}`} onClick={toggleDarkMode}>
       {isDarkMode ? <FontAwesomeIcon icon={faSun} className="sun darkModeIcon" /> : <FontAwesomeIcon icon={faMoon} className="moon darkModeIcon" />}
-      <button onClick={toggleDarkMode} className="buttonDarkMode"></button>
     </div>
   );
 };
