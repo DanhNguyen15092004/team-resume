@@ -2,5 +2,9 @@ img {
   object-fit: cover;
   width: 100%;
   height: auto;
-  object-position: center;
+}
+
+.image-myself {
+  width: 80%;
+  
 }

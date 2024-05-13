@@ -12,7 +12,6 @@ const skillsData = [
   { name: 'Node.js', value: 55 },
   { name: 'Git', value: 60 },
   { name: 'Docker', value: 70 },
-  // Add more skills as needed
 ];
 
 const Skills = () => {
@@ -23,13 +22,12 @@ const Skills = () => {
   }, []);
 
   const animateSkills = () => {
-    const animationDuration = 1500; // Animation duration in milliseconds
-    const animationInterval = 100; // Interval between each animation step
+    const animationDuration = 1500;   
+    const animationInterval = 100;
     const animationFrames = Math.ceil(animationDuration / animationInterval);
     skillsData.forEach((skill, index) => {
       const step = skill.value / animationFrames;
       let currentValue = 0;
-      
       const intervalId = setInterval(() => {
         if (currentValue >= skill.value) {
           clearInterval(intervalId);
@@ -55,9 +53,10 @@ const Skills = () => {
             <div className="progress-bar">
               <div
                 className="progress"
-                style={{ width: `${animatedSkills[index] || 0}%` }}
+                style={{ width: `${animatedSkills[index] || 0}%`  }}
               >
-                <span className="progress-text">{Math.round(animatedSkills[index] || 0)}%</span>
+                <span className="progress-text" style={{ color: 'black' }}>{Math.round(animatedSkills[index] || 0)}%
+                </span>
               </div>
             </div>
           </div>

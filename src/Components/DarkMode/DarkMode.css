@@ -1,14 +1,9 @@
 .wrapperDarkMode {
-    width: 5%; 
-    height: 45px;
-    border: 1px solid ;
-    border-radius: 20px;
     position: absolute;
     top : 5%;
     right: 3%;
     cursor: pointer;
 }
-
 .sun{  
     color : orange;
     position: absolute;
@@ -26,8 +21,11 @@
     color:white;    
 }
 .text-DarkMode { 
-    color :white ;
+    color :white;
 }
 .darkModeIcon {
-    font-size: 25px;
+    font-size: 40px;
+}
+.text {
+    color :black;
 }

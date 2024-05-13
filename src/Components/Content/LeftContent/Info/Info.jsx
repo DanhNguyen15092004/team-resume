@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMobile, faEnvelope, faMapMarker, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faMobile, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Info.css';
 
