@@ -1,15 +1,51 @@
 .cv-header-description { 
     font-size: 15px;
 }
+
 .cv-header-container { 
-    background-color: black;       
+    background-color: black;   
+    color: white;    
     border-radius: 15px;
     padding-left :10px;
-    color : white;
     display: flex;
     flex-direction: column; 
     align-items: stretch; 
 }
+
 .header-wrapper {
     margin : 20px 0 0 10px;
+}
+
+.large-img,
+.large-text {
+    width: 100%; 
+}
+
+.small-img {
+    display: none; 
+}
+
+.small-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+
+@media (max-width: 768px) {
+    .large-img,
+    .large-text {
+        display: none; 
+    }
+
+    .small-img {
+        display: flex; 
+        margin-bottom: 20px; 
+    }
+
+    .small-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+    }
 }

@@ -1,0 +1,10 @@
+img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.image-myself {
+  width: 80%;
+  
+}

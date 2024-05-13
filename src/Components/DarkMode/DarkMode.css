@@ -1,0 +1,32 @@
+.wrapperDarkMode {
+    position: absolute;
+    top : 5%;
+    right: 3%;
+    cursor: pointer;
+}
+.sun{  
+    color : orange;
+    position: absolute;
+    top: 25%;
+    left :5%;
+}
+.moon { 
+    color:black;
+    position: absolute;
+    top: 25%;
+    right:5%;
+}
+.darkMode {
+    background-color: black;
+    color:white;    
+}
+.text-DarkMode { 
+    color :white;
+}
+.darkModeIcon {
+    font-size: 40px;
+}
+
+.text {
+    color :black;
+}
