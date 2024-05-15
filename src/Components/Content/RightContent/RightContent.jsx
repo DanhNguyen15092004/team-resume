@@ -3,6 +3,7 @@ import Header from "./Header/Header";
 import Body from "./Body/Body"
 import ProsAndCons from "./ProsAndCons/ProsAndCons";
 import { Col, Row } from "react-bootstrap";
+import Project from "./Project/Project";
 const RightContent = () =>{ 
     return(
         <Col>
@@ -14,6 +15,9 @@ const RightContent = () =>{
         </Row>
         <Row>
             <ProsAndCons/>
+        </Row>
+        <Row>
+            <Project/>
         </Row>
         </Col>
     )

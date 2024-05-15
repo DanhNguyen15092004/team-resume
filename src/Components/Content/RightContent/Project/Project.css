@@ -1,0 +1,28 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-item {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .custom-icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .project-text {
+    font-size: 14px;
+  }
+  
+
+  
+  .project-content {
+    margin-top: 20px;
+  }
+.project-subtitle {
+    margin-top: 20px;
+}

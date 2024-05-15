@@ -11,6 +11,7 @@ import './Content.css';
 import { useSelector } from 'react-redux';
 import WindowSizeListener from '../WindowSizeListener/WindowSizeListener'
 import SoftSkills from './LeftContent/SoftSkills/SoftSkills';
+import Project from './RightContent/Project/Project';
 const Content = () => {
   const mobile = useSelector((state) => state.isMobile.value); 
   return (
@@ -38,6 +39,9 @@ const Content = () => {
           </Col>
           <Col sm={12}>
             <SoftSkills/>
+          </Col>
+          <Col sm={12}>
+            <Project/>
           </Col>
           <Col sm={12}>
             <ProsAndCons />
