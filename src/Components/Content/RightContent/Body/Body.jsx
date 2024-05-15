@@ -6,7 +6,7 @@ const Body = () => {
     return ( 
         <Col className="body">
             <div className="Experience">
-                <h1 className="experience-title">
+                <h1 className="experience-title title">
                     WORK EXPERIENCE
                 </h1>
                 <hr/>

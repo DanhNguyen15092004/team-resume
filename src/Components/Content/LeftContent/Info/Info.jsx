@@ -19,11 +19,12 @@ const Info = () => {
           </div>
           <div className="info-item">
             <FontAwesomeIcon icon={faLinkedin} className="custom-icon" />
-            <a href="https://www.linkedin.com/in/danh-nguy%E1%BB%85n-994a8b25b/" target="_blank" rel="noopener noreferrer" className="info-text">Linkedin</a>
+            <p>https://www.linkedin.com/in/danh-nguy%E1%BB%85n-994a8b25b/</p>
         </div>
           <div className="info-item">
             <FontAwesomeIcon icon={faGithub} className="custom-icon" />
-            <a href="https://github.com/DanhNguyen15092004" target="_blank" rel="noopener noreferrer" className="info-text">Github</a>
+            <p>https://github.com/DanhNguyen15092004</p>
+
         </div>
         </div>
       </div>

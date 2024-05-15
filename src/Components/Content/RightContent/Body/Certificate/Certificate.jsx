@@ -7,7 +7,7 @@ import { Col } from "react-bootstrap";
 const Certificate = () => { 
     return ( 
         <Col className="certificate-container"> 
-            <h3 className="certificate-title">CERTIFICATE</h3>
+            <h3 className="certificate-title subtitle">Certificate</h3>
             <div className="certificate-content"> 
                 <div className="certificate-item">
                     <FontAwesomeIcon icon={faOpencart} className='custom-icon' />

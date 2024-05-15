@@ -12,7 +12,7 @@ const Header = () => {
     <div>
       <WindowSizeListener /> 
       {isMobile ? (
-        <div>
+        <div className="header-container">
           <Row>
             <Col className="small-img">
               <Image />

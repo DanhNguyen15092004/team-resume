@@ -1,0 +1,29 @@
+
+.softskills-content {
+    margin-top: 20px;
+}
+
+.softskills-title {
+    font-size: 30px;
+}
+
+.softskills-section {
+    margin-bottom: 20px;
+}
+
+.softskills-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.custom-icon {
+
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+}

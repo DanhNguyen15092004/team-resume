@@ -10,6 +10,7 @@ import Body from './RightContent/Body/Body';
 import './Content.css';
 import { useSelector } from 'react-redux';
 import WindowSizeListener from '../WindowSizeListener/WindowSizeListener'
+import SoftSkills from './LeftContent/SoftSkills/SoftSkills';
 const Content = () => {
   const mobile = useSelector((state) => state.isMobile.value); 
   return (
@@ -36,10 +37,13 @@ const Content = () => {
             <Skills />
           </Col>
           <Col sm={12}>
+            <SoftSkills/>
+          </Col>
+          <Col sm={12}>
             <ProsAndCons />
           </Col>
           <Col sm={12}>
-            <h1 className='contact-title'>CONTACT</h1>
+            <h1 className='contact-title title'>CONTACT</h1>
             <Info />
           </Col>
         </Row>

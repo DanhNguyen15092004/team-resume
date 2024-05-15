@@ -10,9 +10,14 @@
     padding-top: 15px;
     
 }
-.contact-title {
+.title {
     color: rgb(222, 64, 64);
     font-size: 25px;
     margin-bottom: unset;
     margin-top: 20px;
+    font-weight: bold
+}
+.subtitle {
+    font-size: 18px;
+    color: rgb(222, 64, 64);
 }

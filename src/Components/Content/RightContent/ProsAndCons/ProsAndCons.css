@@ -1,11 +1,11 @@
 .prosAndCons-title {
     font-size: 30px;
     margin-top: 30px;
-    color: rgb(222, 64, 64);
 }
 .prosAndCons-title-child {
     font-size: 20px;   
 }
 .ProsAndConsContainer {
-    margin-left: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
 }

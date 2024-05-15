@@ -1,6 +1,7 @@
 .pros-container {
     display: flex;
     flex-direction: column;
+    
   }
   
   .pros-item {

@@ -6,16 +6,16 @@ import './ProsAndCons.css'
 const ProsAndCons = () => { 
     return (
         <Col className="ProsAndConsContainer">
-           <h1 className="prosAndCons-title">
+           <h1 className="prosAndCons-title title">
                 ADVANTAGES AND DISADVANTAGES
             </h1>
             <hr/>
-            <h3 className="prosAndCons-title-child">
-                    ADVANTAGES
+            <h3 className="prosAndCons-title-child subtitle">
+                    Advantages
             </h3>
                 <Pros/>
-            <h3 className="prosAndCons-title-child  ">
-                    DISADVANTAGES
+            <h3 className="prosAndCons-title-child subtitle">
+                    Disadvangtages
             </h3>
                 <Cons/>
         </Col>
